@@ -13,6 +13,34 @@
     color: var(--main-color);
 }
 
+/** header **/
+.header-container {
+    width: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.logo img {
+    width: 30%;
+}
+.nav ul {
+    margin-left: 300%;
+    margin-top: 0;
+    display: flex;
+}
+.nav ul li {
+    list-style: none;
+    margin-left: 5%;
+    padding-right: 10px;
+}
+.nav ul li:hover {
+    text-decoration: overline;
+    color: #0065FC;
+}
+.nav ul li:active {
+    text-decoration: overline;
+    color: #0065FC;
+}
+
 body {
     display: flex;
     justify-content: center;
