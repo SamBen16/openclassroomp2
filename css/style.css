@@ -40,6 +40,54 @@
     text-decoration: overline;
     color: #0065FC;
 }
+form{
+    margin-bottom: 3vh;
+    display: flex;
+    flex-direction: row;
+    margin: 13px;
+}
+.logo-form {
+    color:#FFFFFF;
+    background-color: #F2F2F2;
+    width: 25px;
+    height: 20px;
+    border: solid 1px #F2F2F2;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+form #position {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+label {
+    background-color: #F2F2F2;
+    width: 35px;
+    height: 25px;
+    padding-left: 25px;
+    padding-top: 6px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#marseille {
+    border: #F2F2F2;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+#Rechercher {
+    background-color: #0065FC;
+    color:#F2F2F2;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px ;
+    border: #FFFFFF;
+    padding: 16px, 15px, 16px;
+    width: 100px;
+    height: 30px;
+    border-left:3px solid #0065FC;
+}
 
 body {
     display: flex;
@@ -239,5 +287,11 @@ a {
         text-decoration: underline;
         text-underline-offset: 10px;
         color: #0065FC;
+    }
+    header h1{
+        font-size: 15px;
+    }
+    header p {
+        font-size: 13px;
     }
 }
