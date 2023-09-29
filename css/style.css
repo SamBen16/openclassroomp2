@@ -20,7 +20,7 @@
     flex-direction: row;
 }
 .logo img {
-    width: 30%;
+    width: 25vh;
 }
 .nav ul {
     margin-left: 300%;
