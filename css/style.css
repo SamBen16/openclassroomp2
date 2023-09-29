@@ -88,6 +88,9 @@ label {
     height: 30px;
     border-left:3px solid #0065FC;
 }
+#loupe {
+    display: none;
+}
 .container-filtres {
     display: flex;
     flex-direction: row;
@@ -349,6 +352,19 @@ a {
     }
     header p {
         font-size: 13px;
+    }
+    #Rechercher {
+        display: none;
+    }
+    #loupe {
+        display: block;
+        text-align: center;
+        padding-top: -20px;
+        background-color: #0065FC;
+        width: 30px;
+        height: 20px;
+        padding: 5px;
+        border-radius: 45%;
     }
     .container-filtres {
         display: flex;
