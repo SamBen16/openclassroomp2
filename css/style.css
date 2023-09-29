@@ -157,6 +157,21 @@ a {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+/** header **/
+    .logo img {
+        width: 15vh;
+    }
+    .nav ul {
+        margin-left: 85vh;
+        margin-top: 0;
+        display: flex;
+    }
+    .nav ul li {
+        list-style: none;
+        margin-left: 5%;
+        padding-right: 10px;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -192,4 +207,37 @@ a {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+    /** header **/
+    .header-container {
+        width: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .logo {
+        width: 40%;
+    }
+    .nav ul {
+        align-items: center;
+        margin-top: 10%;
+        margin-left: -55%;
+
+    }
+    .hebergements{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .nav ul li:hover {
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        color: #0065FC;
+
+    }
+    .nav ul li:active {
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        color: #0065FC;
+    }
 }
