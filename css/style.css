@@ -88,6 +88,42 @@ label {
     height: 30px;
     border-left:3px solid #0065FC;
 }
+.container-filtres {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.title-filtre{
+    margin-top: -5px;
+    font-size: 13px;
+}
+#economique, #familiale, #romantique, #pepite{
+    border: 2px solid rgb(239, 239, 239);
+    gap: 10px;
+    width: 220px;
+    height: 30px;
+    text-align: center;
+    border-radius: 25px ;
+    color:black;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+#economique:hover, #familiale:hover, #romantique:hover, #pepite:hover{
+    background-color: #DEEBFF;
+}
+.contenu-filtre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+    gap: 25px;
+    flex-wrap: wrap;
+
+}
 
 body {
     display: flex;
@@ -219,6 +255,26 @@ a {
         margin-left: 5%;
         padding-right: 10px;
     }
+    .container-filtres {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-bottom: 15px;
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+    .contenu-filtre{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 70px;
+        gap: 10px;
+    }
+    #economique, #familiale, #romantique, #pepite{
+        border: 2px solid rgb(239, 239, 239);
+        gap: 10px;
+        width: 250px;
+        height: 30px;
+    }
 
     .hebergements-and-populaires {
         flex-direction: column;
@@ -293,5 +349,25 @@ a {
     }
     header p {
         font-size: 13px;
+    }
+    .container-filtres {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-bottom: 15px;
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+    .contenu-filtre{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 70px;
+        gap: 10px;
+    }
+    #economique, #familiale, #romantique, #pepite{
+        border: 2px solid rgb(239, 239, 239);
+        gap: 10px;
+        width: 190px;
+        height: 30px;
     }
 }
