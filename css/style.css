@@ -236,6 +236,21 @@ a {
     margin-bottom: 5px;
 }
 
+/** footer **/
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    margin-top: 5vh;
+}
+footer ul, li {
+    list-style: none;
+
+}
+footer span{
+    font-weight: bold;
+}
 
 
 
@@ -385,5 +400,10 @@ a {
         gap: 10px;
         width: 190px;
         height: 30px;
+    }
+    /** footer **/
+    footer {
+        display: flex;
+        flex-direction: column;
     }
 }
