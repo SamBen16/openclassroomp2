@@ -2,49 +2,49 @@
 <html lang="fr">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Booki</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booki</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-<div class="main-container">
-<header>
-<div class="header-container">
-<div class="logo">
-<img src="images/logo/Booki.png" alt="logo" />
-</div>
-<div class="nav">
-<ul> 
-<li>Hébergements</li>
-<li>Activités</li>
-</ul>
-</div>
-</div>
+    <div class="main-container">
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/logo/Booki.png" alt="logo" />
+            </div>
+            <div class="nav">
+                <ul> 
+                <li>Hébergements</li>
+                <li>Activités</li>
+                </ul>
+            </div>
+        </div>
 
-<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-<p>En plein centre-ville ou en pleine nature</p>
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p>En plein centre-ville ou en pleine nature</p>
 
-<form>
-<label>
-<i class="fa-sharp fa-solid fa-location-dot" style="color: black"></i>
-</label>
-<input type="text" id="marseille" value="Marseille, France" >
-<input type="text" id="Rechercher" value="Rechercher">
-<i class="fa-solid fa-magnifying-glass" id="loupe" style="color: white;" ></i>
-</form>
+        <form>
+            <label>
+            <i class="fa-sharp fa-solid fa-location-dot" style="color: black"></i>
+            </label>
+            <input type="text" id="marseille" value="Marseille, France" >
+            <input type="text" id="Rechercher" value="Rechercher">
+            <i class="fa-solid fa-magnifying-glass" id="loupe" style="color: white;" ></i>
+        </form>
 
-<div class="container-filtres">
-<div class="title-filtre">
-<h2>Filtres</h2>
-</div>
+        <div class="container-filtres">
+        <div class="title-filtre">
+        <h2>Filtres</h2>
+    </div>
 <div class="contenu-filtre">
 <div id="economique">
 <i class="fa-sharp fa-solid fa-money-bill-wave" style="color: #2c66c9;"></i>&nbsp;&nbsp;&nbsp;Économique</div>
@@ -185,7 +185,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 </div>
 </article>
 </a> 
-<span>Afficher plus</span>
+<span id="afficherPlus">Afficher plus</span>
 </div>
 
 </section>
@@ -257,7 +257,39 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 </div>
 </section>
 </div>
+<div class="main-container">
+
+<section class="activite">
+    <div class="activite-title">
+        <h2 class="activite-title">Activités à Marseille</h2>
+    </div>
+
+    <div class="activite-container">
+    <div class="activite-image">
+        <img src="images/activites/reno-laithienne.jpg" alt="image du vieux port">
+        <span class="activite-subtitle">Vieux Port</span>
+    </div>
+
+    <div class="activite-image">
+        <img src="images/activites/paul-hermann.jpg" alt="image du vieux port">
+        <span class="activite-subtitle">Fort de Pomègues</span>
+    </div>
+
+    <div class="activite-image">
+        <img src="images/activites/kilyan-sockalingum.jpg" alt="image du vieux port">
+        <span class="activite-subtitle">Parc national des <span>Calanques</span></span>
+    </div>
+
+    <div class="activite-image">
+        <img src="images/activites/florian-wehde.jpg" alt="image du vieux port">
+        <span class="activite-subtitle">Notre-Dame-de-la-<span>Garde</span></span>
+    </div>
+</div>
+    
+</section>
+</div>
 </main>
+
 
 <footer>
 <div class="propos">
