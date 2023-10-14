@@ -26,16 +26,15 @@
     }
     .nav ul li{
         margin-left: 20px;
-        padding-top: 10px;
+        padding-top: 8px;
+        border-top: 2px solid #ffffff ;
     }
     .nav ul li:hover {
-    /* text-decoration: overline; */
-    border-top: 2px solid blue;
-    padding-top: 10px;
+    border-color:  #0065FC;
     color: #0065FC;
     }
     .nav ul li:active {
-    text-decoration: overline;
+    border-color: #0065FC;
     color: #0065FC;
     }
     form{
