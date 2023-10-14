@@ -80,9 +80,9 @@
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px ;
     border: #FFFFFF;
-    padding: 16px, 15px, 16px;
+    padding: 16px 15px 16px;
     width: 100px;
-    height: 30px;
+    height: 3px;
     border-left:3px solid #0065FC;
     }
     #loupe {
@@ -122,7 +122,6 @@
     gap: 25px;
     flex-wrap: wrap;
     }
-    
     body {
     display: flex;
     justify-content: center;
@@ -174,8 +173,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px; 
-    box-sizing: border-box;   
-    grid-template-columns: repeat(auto-fill); 
+    box-sizing: border-box;    
     }
 
     .card-1 {
@@ -380,14 +378,12 @@
     .hebergements {
     width: 100%;
     margin: auto;
-    padding: auto;
     }
     
     .populaires {
     width: 100%;
     margin-top: 50px;
     margin: auto;
-    padding: auto;
     }
     
     .populaires-cards {
@@ -395,7 +391,6 @@
     flex-direction: row;
     justify-content: space-between;
     margin: auto;
-    padding: auto;
     }
     
     .populaires-cards a {
@@ -525,7 +520,6 @@
     #loupe {
     display: block;
     text-align: center;
-    padding-top: -20px;
     background-color: #0065FC;
     width: 30px;
     height: 20px;
