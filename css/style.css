@@ -97,7 +97,6 @@
     flex-wrap: wrap;
     }
     .title-filtre{
-    margin-top: -5px;
     font-size: 13px;
     }
     #economique, #familiale, #romantique, #pepite{
@@ -118,7 +117,7 @@
     .contenu-filtre{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 15px;
     gap: 25px;
     flex-wrap: wrap;
@@ -226,6 +225,7 @@
     .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    gap: 30px;
     }
     
     .hebergements-and-populaires section {
