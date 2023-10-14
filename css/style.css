@@ -457,6 +457,8 @@
 
     .logo img {
        margin: auto;
+       margin-top: 15px;
+       width: 30%;
     }
     body {
         margin: 0px;
@@ -502,14 +504,20 @@
     flex-direction: column;
     }
     h1{
-    font-size: 25px;
+    margin: 5px;
+    font-size: 26px;
+    }
+    h2 {
+    margin: 5px;
     }
     p {
+    margin: 5px;
     font-size: 13px;
+    margin-bottom: 15px;
     }
     form {
+    margin: 5px;
         text-align: center;
-        padding-left: 40px;
     }
     #Rechercher {
     display: none;
@@ -522,7 +530,7 @@
     width: 30px;
     height: 20px;
     padding: 5px;
-    border-radius: 45%;
+    border-radius: 25%;
     }
     .container-filtres {
     display: flex;
@@ -532,16 +540,18 @@
     gap: 5px;
     flex-wrap: wrap;
     }
+
     .contenu-filtre{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 70px;
-    gap: 10px;
+    grid-template-rows: 50px;
+    gap: 7px;
     }
     #economique, #familiale, #romantique, #pepite{
     border: 2px solid rgb(239, 239, 239);
+    margin: 5px;
     gap: 10px;
-    width: 190px;
+    width: 160px;
     height: 30px;
     }
     .hebergements-and-populaires{
@@ -553,21 +563,21 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        }
+    }
     .populaires {
         width: 100%;
         margin-top: 50px;
-        }
+    }
         
-        .populaires-cards {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        }
-        
-        .populaires-cards a {
-        width: 100%;
-        }
+    .populaires-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+    
+    .populaires-cards a {
+    width: 100%;
+    }
 /*** hebergements ***/
     .card-container {
     display: flex;
@@ -632,5 +642,4 @@
     display: flex;
     flex-direction: column;
     }
-
     }
