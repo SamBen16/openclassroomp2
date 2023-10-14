@@ -361,15 +361,15 @@
     flex-wrap: wrap;
     }
     .contenu-filtre{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 70px;
-    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 5px;
     }
     #economique, #familiale, #romantique, #pepite{
     border: 2px solid rgb(239, 239, 239);
-    gap: 10px;
-    width: 250px;
+    gap: 5px;
+    width: 140px;
     height: 30px;
     }
     
