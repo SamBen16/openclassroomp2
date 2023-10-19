@@ -494,6 +494,12 @@
         border-color: #0065FC;
         /* padding-bottom: 10px; */
     }
+    .marge {
+        margin-left: 10px;
+    }
+    #p {
+        font-size: 17px;
+    }
     .hebergements{
     display: flex;
     flex-direction: column;
