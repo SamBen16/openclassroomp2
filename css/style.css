@@ -483,6 +483,7 @@
         width: 50%;
         border-bottom: #FFFFFF 3px solid;
         padding-bottom: 10px;
+        border-color: #eaebef46;
     }
     .nav ul li:hover {
         border-color: blue;
