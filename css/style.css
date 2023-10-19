@@ -170,13 +170,13 @@
     
 /* container carte */
     .card-container {
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px; 
     }
     #hebergemen.hebergements {
         width: 100%;
+        padding: 2px;
         box-sizing: content-box;
     }
 
@@ -588,6 +588,11 @@
     width: 100%;
     }
 /*** hebergements ***/
+#hebergemen.hebergements {
+    width: 100%;
+    box-sizing: content-box;
+    padding: 2px;
+}
     .card-container {
     display: flex;
     flex-direction: column;
@@ -639,7 +644,7 @@
     .activite-container{
         display: flex;
         flex-direction: column;
-        padding: 15px;
+        padding: 5px;
     }
     .activite-subtitle {
         display: flex;
