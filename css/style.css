@@ -292,7 +292,7 @@
     } */
     .activite-image img{
         width: 100%;
-        height: 380px;
+        height: 300px;
         border-top-right-radius: 10%;
         border-top-left-radius: 10%;
 
@@ -406,7 +406,7 @@
     }
     
     .populaires-cards .card-title {
-    font-size: 14px;
+    font-size: 13px;
     }
     
     .populaires-cards .card-subtitle {
@@ -414,7 +414,7 @@
     }
     .activite {
         margin: auto;
-        width: 90%;
+        width: 100%;
 
     }
     /* .activite-image img{
@@ -431,9 +431,9 @@
         margin: 30px;
     } */
     .activite-image {
-        width: 75%;
-
+        width: 60%;
         margin: auto;
+        /* margin: auto; */
     }
     .activite-image img{
         /* width: 115px; */
@@ -449,7 +449,6 @@
     .activite-subtitle {
         display: flex;
         flex-direction: column;
-        
     }
     }
     
@@ -633,6 +632,8 @@
     .activite-image{
         border-radius: 10%;
         padding: 0px;
+        margin: auto;
+        width: 80%;
         margin-bottom: 10px;
     }
     .activite-image img{
