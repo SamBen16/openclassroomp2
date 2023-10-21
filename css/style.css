@@ -1,4 +1,4 @@
-/****** General ***********/
+/* ***** General **********
 * {
     font-family: 'Raleway', sans-serif;
     }
@@ -14,7 +14,7 @@
     }
     
 /** header **/
-    header {
+    /* header {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -131,7 +131,7 @@
     width: 100%;
     max-width: 1440px;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     }
     
     a {
@@ -244,7 +244,7 @@
     
 /****** Populaires ***********/
     .populaires {
-    width: 32%;
+    width: 35%;
     }
 
     .populaires-title {
@@ -292,7 +292,7 @@
     } */
     .activite-image img{
         width: 100%;
-        height: 300px;
+        height: 250px;
         border-top-right-radius: 10%;
         border-top-left-radius: 10%;
 
@@ -410,11 +410,11 @@
     }
     
     .populaires-cards .card-subtitle {
-    font-size: 15px;
+    font-size: 14px;
     }
     .activite {
         margin: auto;
-        width: 100%;
+        width: 90%
 
     }
     /* .activite-image img{
@@ -422,18 +422,17 @@
         height: 250px;
         border-top-right-radius: 10%;
         border-top-left-radius: 10% ;
-    } */
+    }  */
     /* .activite-image {
         display: flex;
         flex-direction: column;
         border: 2px solid rgb(250, 249, 249);
         border-radius: 10%;
         margin: 30px;
-    } */
+    }  */
     .activite-image {
-        width: 60%;
+        width: 75%;
         margin: auto;
-        /* margin: auto; */
     }
     .activite-image img{
         /* width: 115px; */
@@ -502,12 +501,12 @@
         border-color: #0065FC;
         /* padding-bottom: 10px; */
     }
-    .marge {
+    /* .marge {
         margin-left: 10px;
     }
     #p {
         font-size: 17px;
-    }
+    } */
     .hebergements{
     display: flex;
     flex-direction: column;
@@ -587,11 +586,11 @@
     width: 100%;
     }
 /*** hebergements ***/
-#hebergemen.hebergements {
-    width: 100%;
+/* #hebergemen.hebergements {
+    width: 90%;
     box-sizing: content-box;
-    padding: 2px;
-}
+    padding: 5px;
+} */
     .card-container {
     display: flex;
     flex-direction: column;
@@ -632,8 +631,6 @@
     .activite-image{
         border-radius: 10%;
         padding: 0px;
-        margin: auto;
-        width: 80%;
         margin-bottom: 10px;
     }
     .activite-image img{
@@ -645,7 +642,7 @@
     .activite-container{
         display: flex;
         flex-direction: column;
-        padding: 5px;
+        padding: 15px; 
     }
     .activite-subtitle {
         display: flex;
@@ -657,4 +654,4 @@
     display: flex;
     flex-direction: column;
     }
-    }
+}  
